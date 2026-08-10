@@ -1,0 +1,13 @@
+city,venue,capacity,show_date,onsale_date,base_price,show_id,days_on_sale,days_to_show
+Paris,Le Trianon,1100,2026-11-14,2026-06-02,32,S01,63,102
+Paris,La Cigale,1389,2027-02-06,2026-06-02,34,S02,63,186
+Lyon,Le Transbordeur,1800,2026-11-21,2026-06-09,30,S03,56,109
+Bordeaux,Rock School Barbey,600,2026-11-27,2026-06-09,27,S04,56,115
+Toulouse,Le Bikini,1500,2026-11-28,2026-06-09,28,S05,56,116
+Nantes,Stereolux,800,2026-12-04,2026-06-16,27,S06,49,122
+Rennes,L'Antipode,500,2026-12-05,2026-06-16,25,S07,49,123
+Lille,L'Aéronef,1200,2026-12-11,2026-06-16,28,S08,49,129
+Strasbourg,La Laiterie,950,2027-01-16,2026-06-23,27,S09,42,165
+Marseille,Le Molotov,450,2027-01-22,2026-06-23,26,S10,42,171
+Montpellier,Le Rockstore,700,2027-01-23,2026-06-23,26,S11,42,172
+Bruxelles,Botanique,650,2027-01-30,2026-06-30,29,S12,35,179
