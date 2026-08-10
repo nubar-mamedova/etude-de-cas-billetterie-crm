@@ -1,0 +1,173 @@
+[
+  {
+    "campagne": "A",
+    "nom": "Rattrapage géolocalisé",
+    "variable_testee": "objet",
+    "contexte_chiffre": {
+      "segments": {
+        "Nouveaux acheteurs": {
+          "acheteurs": 2881,
+          "joignables": 425,
+          "opt_in_email": 1885,
+          "recence_mediane_jours": 40,
+          "panier_moyen_eur": 49.5,
+          "commandes_moyennes": 1.0
+        },
+        "Gros paniers": {
+          "acheteurs": 520,
+          "joignables": 100,
+          "opt_in_email": 346,
+          "recence_mediane_jours": 41,
+          "panier_moyen_eur": 99.35,
+          "commandes_moyennes": 1.15
+        },
+        "Multi-dates": {
+          "acheteurs": 346,
+          "joignables": 118,
+          "opt_in_email": 233,
+          "recence_mediane_jours": 29,
+          "panier_moyen_eur": 125.12,
+          "commandes_moyennes": 2.17
+        }
+      },
+      "dates": {
+        "Toulouse": {
+          "salle": "Le Bikini",
+          "date": "2026-11-28",
+          "jauge": 1500,
+          "prix_base_eur": 28.0
+        },
+        "Lille": {
+          "salle": "L'Aéronef",
+          "date": "2026-12-11",
+          "jauge": 1200,
+          "prix_base_eur": 28.0
+        },
+        "Montpellier": {
+          "salle": "Le Rockstore",
+          "date": "2027-01-23",
+          "jauge": 700,
+          "prix_base_eur": 26.0
+        }
+      }
+    },
+    "sortie": null,
+    "journal": [
+      "essai 1 : rejeté — variante_1 : objet 50 caractères (max 45)",
+      "essai 2 : rejeté — variante_1 : objet 56 caractères (max 45) | variante_2 : objet 63 caractères (max 45)"
+    ]
+  },
+  {
+    "campagne": "B",
+    "nom": "Réactivation Premier Cercle",
+    "variable_testee": "créa",
+    "contexte_chiffre": {
+      "segments": {
+        "À réactiver": {
+          "acheteurs": 528,
+          "joignables": 339,
+          "opt_in_email": 339,
+          "recence_mediane_jours": 692,
+          "panier_moyen_eur": 54.26,
+          "commandes_moyennes": 1.29
+        }
+      },
+      "dates": {}
+    },
+    "sortie": {
+      "variante_1": {
+        "objet": "On se souvient de vous à ce concert LÜMA",
+        "corps": "Bonjour,\n\nVous étiez présent à un concert LÜMA en 2024. Le duo repart en tournée avec ORBITE 2026-27, et on avait envie de vous prévenir en premier.\n\nLes dates et villes sont bientôt dévoilées. Réservez votre place dès l'ouverture de la billetterie.\n\nJe garde ma place\n\nPour ne plus recevoir nos e-mails, cliquez ici pour vous désabonner."
+      },
+      "variante_2": {
+        "objet": "LÜMA annonce sa tournée ORBITE 2026-27",
+        "corps": "Bonjour,\n\nLe duo LÜMA repart en tournée avec ORBITE 2026-27. Un nouveau spectacle porté sur scène dans plusieurs villes.\n\nLes dates et villes sont bientôt dévoilées. Réservez votre place dès l'ouverture de la billetterie.\n\nJe garde ma place\n\nPour ne plus recevoir nos e-mails, cliquez ici pour vous désabonner."
+      }
+    },
+    "journal": [
+      "essai 1 : accepté"
+    ]
+  },
+  {
+    "campagne": "C",
+    "nom": "Prévente Noyau dur",
+    "variable_testee": "objet",
+    "contexte_chiffre": {
+      "segments": {
+        "Noyau dur": {
+          "acheteurs": 180,
+          "joignables": 118,
+          "opt_in_email": 118,
+          "recence_mediane_jours": 48,
+          "panier_moyen_eur": 115.98,
+          "commandes_moyennes": 2.41
+        }
+      },
+      "dates": {
+        "Toulouse": {
+          "salle": "Le Bikini",
+          "date": "2026-11-28",
+          "jauge": 1500,
+          "prix_base_eur": 28.0
+        },
+        "Lille": {
+          "salle": "L'Aéronef",
+          "date": "2026-12-11",
+          "jauge": 1200,
+          "prix_base_eur": 28.0
+        },
+        "Montpellier": {
+          "salle": "Le Rockstore",
+          "date": "2027-01-23",
+          "jauge": 700,
+          "prix_base_eur": 26.0
+        }
+      }
+    },
+    "sortie": {
+      "variante_1": {
+        "objet": "LÜMA : votre accès prioritaire, 48 h d'avance",
+        "corps": "Bonjour,\n\nAvant l'ouverture générale, vous avez un accès prioritaire à la billetterie ORBITE 2026-27 : Toulouse (Le Bikini, 28 nov.), Lille (L'Aéronef, 11 déc.) et Montpellier (Le Rockstore, 23 jan.).\n\nCet accès est ouvert 48 h, réservé à nos contacts fidèles.\n\nJe réserve ma place\n\nPour ne plus recevoir nos e-mails, cliquez ici pour vous désabonner."
+      },
+      "variante_2": {
+        "objet": "LÜMA : un placement de faveur vous attend",
+        "corps": "Bonjour,\n\nAvant l'ouverture générale, un placement de faveur vous est réservé pour la billetterie ORBITE 2026-27 : Toulouse (Le Bikini, 28 nov.), Lille (L'Aéronef, 11 déc.) et Montpellier (Le Rockstore, 23 jan.).\n\nCet accès est ouvert 48 h, réservé à nos contacts fidèles.\n\nJe réserve ma place\n\nPour ne plus recevoir nos e-mails, cliquez ici pour vous désabonner."
+      }
+    },
+    "journal": [
+      "essai 1 : rejeté — variante_1 : champ manquant | variante_2 : champ manquant",
+      "essai 2 : accepté"
+    ]
+  },
+  {
+    "campagne": "D",
+    "nom": "Reprise de la donnée au point de vente",
+    "variable_testee": "objet",
+    "contexte_chiffre": {
+      "segments": {
+        "Nouveaux acheteurs": {
+          "acheteurs": 2881,
+          "joignables": 425,
+          "opt_in_email": 1885,
+          "recence_mediane_jours": 40,
+          "panier_moyen_eur": 49.5,
+          "commandes_moyennes": 1.0
+        }
+      },
+      "dates": {}
+    },
+    "sortie": {
+      "variante_1": {
+        "objet": "Le programme du concert vous attend",
+        "corps": "Merci d'être venu·e voir LÜMA hier soir. Pour prolonger la soirée, on vous propose de recevoir le programme du concert par e-mail : setlist, coulisses et infos sur la tournée ORBITE 2026-27. Cliquez ci-dessous pour le recevoir.\n\nJe m'inscris\n\nVous pourrez vous désabonner à tout moment via le lien en bas de nos e-mails."
+      },
+      "variante_2": {
+        "objet": "Rejoignez le fichier des fans LÜMA",
+        "corps": "Merci d'être venu·e voir LÜMA hier soir. Envie de rester dans la boucle ? Rejoignez le fichier des fans pour suivre la tournée ORBITE 2026-27 et recevoir nos prochaines actus en avant-première. Cliquez ci-dessous pour vous inscrire.\n\nJe m'inscris\n\nVous pourrez vous désabonner à tout moment via le lien en bas de nos e-mails."
+      }
+    },
+    "journal": [
+      "essai 1 : accepté"
+    ]
+  }
+]
